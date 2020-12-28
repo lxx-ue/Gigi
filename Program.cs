@@ -13,7 +13,7 @@ namespace Gigi
             {
                 MissionImpossible();
                 Console.SetCursorPosition(Console.WindowWidth / 2, Console.WindowHeight / 2);
-                Console.ForegroundColor = ConsoleColor.Green; Console.WriteLine("Загрузка игры...");
+                Console.ForegroundColor = ConsoleColor.Green; Console.WriteLine("Загрузка игры...")
                 for (int k = 0; k < 30; k++)
                 {
                     Thread.Sleep(100);
